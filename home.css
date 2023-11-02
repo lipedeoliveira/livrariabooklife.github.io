@@ -106,7 +106,7 @@
     border-radius: 10px;
     background-color: #4B89FFC7;
     box-sizing: border-box;
-    /* Evita que o preenchimento aumente as dimensões */
+    /* Evita que     o preenchimento aumente as dimensões */
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;

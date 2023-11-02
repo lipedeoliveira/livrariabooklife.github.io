@@ -26,8 +26,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel='stylesheet' href='https://themes.audemedia.com/html/goodgrowth/css/owl.theme.default.min.css'>
     <link rel='stylesheet' href='https://themes.audemedia.com/html/goodgrowth/css/owl.theme.default.min.css'>
+    <script src="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/js/swiffy-slider.min.js" crossorigin="anonymous"
+        defer></script>
+    <link href="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/css/swiffy-slider.min.css" rel="stylesheet"
+        crossorigin="anonymous">
 
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+    <script src="categ.js"></script>
     <link rel="stylesheet" href="global.css">
     <link rel="stylesheet" href="categ.css">
 </head>
@@ -47,8 +51,7 @@
                 <ul class="navbar-nav me-auto mb-2 md-lg-0"
                     style="font-family: 'Lilita One', cursive; margin-top: 10px;">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="home.html" style="border-radius: 10px; 
-                            background-color: #bbf0cd; color: rgb(27, 25, 25); white-space:nowrap;">PÁGINA INICIAL</a>
+                        <a class="nav-link active" aria-current="page" href="home.html" style="border-radius: 10px; white-space:nowrap;">PÁGINA INICIAL</a>
                     </li>
 
                     <li class="nav-item">
@@ -58,7 +61,7 @@
 
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="categorias.html"
-                            style="border-radius: 10px; white-space:nowrap;">CATEGORIAS</a>
+                            style="border-radius: 10px; background-color: #bbf0cd; color: rgb(27, 25, 25); white-space:nowrap;">CATEGORIAS</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="embreve.html"
@@ -122,32 +125,59 @@
     </nav>
 
     <div class="corpo">
-        <!--Generos-->
 
-        <div class="generos">Gêneros:</div>
-
-        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="..." class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="..." class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="..." class="d-block w-100" alt="...">
-              </div>
+        <div class="generos">Editoras:</div>
+        <div class="swiffy-slider slider-item-show3 slider-nav-outside slider-nav-dark slider-nav-sm slider-nav-visible slider-nav-page slider-item-snapstart slider-nav-autoplay slider-nav-autopause slider-item-ratio slider-item-ratio-contain slider-item-ratio-32x9 bg-white shadow-lg py-3 py-lg-4"
+            data-slider-nav-autoplay-interval="2000" style="margin-top: 15px; justify-content: center;">
+            <div class="slider-container">
+                <div><img src="darkside.png" alt="..."></div>
+                <div><img src="jambo.png" loading="lazy" alt="..."></div>
+                <div><img src="darkside.png" loading="lazy" alt="..."></div>
+                <div><img src="darkside.png" loading="lazy" alt="..."></div>
+                <div><img src="darkside.png" loading="lazy" alt="..."></div>
+                <div><img src="darkside.png" loading="lazy" alt="..."></div>
+                <div><img src="darkside.png" loading="lazy" alt="..."></div>
+                <div><img src="darkside.png" loading="lazy" alt="..."></div>
+                <div><img src="darkside.png" loading="lazy" alt="..."></div>
+                <div><img src="darkside.png" loading="lazy" alt="..."></div>
+                <div><img src="darkside.png" loading="lazy" alt="..."></div>
+                <div><img src="darkside.png" loading="lazy" alt="..."></div>
+                <div><img src="darkside.png" loading="lazy" alt="..."></div>
+                <div><img src="darkside.png" loading="lazy" alt="..."></div>
+                <div><img src="darkside.png" loading="lazy" alt="..."></div>
+                <div><img src="darkside.png" loading="lazy" alt="..."></div>
+                <div><img src="darkside.png" loading="lazy" alt="..."></div>
+                <div><img src="darkside.png" loading="lazy" alt="..."></div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-    </div>
+            <button type="button" class="slider-nav" aria-label="Go left"></button>
+            <button type="button" class="slider-nav slider-nav-next" aria-label="Go left"></button>
+        </div>
 
+        <div class="generos" style="margin-top: 30px;">Gêneros:</div>
+
+            <div class="gen" style="margin-top: 10px;">
+                <ul class="carrossel">
+                    <li class="categ">
+                        <div class="img"><img src="Berserk.jpg" alt=""></div>
+                    </li>
+                    <li class="categ">
+                        <div class="img"><img src="Berserk.jpg" alt=""></div>
+                    </li>
+                    <li class="categ">
+                        <div class="img"><img src="Berserk.jpg" alt=""></div>
+                    </li>
+                    <li class="categ">
+                        <div class="img"><img src="Berserk.jpg" alt=""></div>
+                    </li>
+                    <li class="categ">
+                        <div class="img"><img src="Berserk.jpg" alt=""></div>
+                    </li>
+                    <li class="categ">
+                        <div class="img"><img src="Berserk.jpg" alt=""></div>
+                    </li>
+                </ul>
+            </div>
+    </div>
     <!--Footer-->
     <footer class="container-fluid text-center margin bg-footer">
         <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
