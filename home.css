@@ -169,8 +169,8 @@
 }
 
 .col img {
-    width: 116px;
-    height: 164px;
+    width: 288px;
+    height: auto;
     -webkit-filter: grayscale(0) blur(0);
     filter: grayscale(0) blur(0);
     -webkit-transition: .3s ease-in-out;
@@ -229,4 +229,14 @@
     font-size: 1.5em;
     word-wrap: break-word;
     margin-top: 17px
+}
+
+.listal{
+    list-style-type: none;
+
+}
+
+.voltas ,.listal{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 }
