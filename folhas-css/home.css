@@ -123,13 +123,13 @@
     margin-top: 17px
 }
 
-.mask_mvr{
+.mask_mvr {
     padding: 20px;
     width: auto;
-    max-width: 150px; 
+    max-width: 150px;
     height: 290px;
-    max-height: 300px; 
-    background: #93E4C9; 
+    max-height: 300px;
+    background: #93E4C9;
     border-radius: 10px;
     justify-content: flex-start;
 }
@@ -159,7 +159,7 @@
 }
 
 .containerGeral {
-    margin:15px;
+    margin: 15px;
     margin-bottom: 150px;
     padding: 3px;
     width: auto;
@@ -171,6 +171,7 @@
     flex-direction: column;
     box-shadow: 3px 4px 7px 0px rgba(0, 0, 0, 0.25);
 }
+
 .col {
     margin-top: 40px;
     margin-bottom: 80px;
@@ -212,7 +213,7 @@
     filter: grayscale(100%) blur(0px);
 }
 
-.Maisvendidosrecentemente{
+.Maisvendidosrecentemente {
     width: 80%;
     /*max-width: 502px;*/
     height: auto;
@@ -235,7 +236,7 @@
     text-align: center;
 }
 
-.Maisvendidosrecentemente h1{
+.Maisvendidosrecentemente h1 {
     width: 534px;
     height: 37px;
     color: rgb(0, 0, 0);
@@ -243,4 +244,17 @@
     font-size: 1.5em;
     word-wrap: break-word;
     margin-top: 17px
+}
+
+.voltas{
+    margin-left: 20px;
+}
+.voltas,
+.listal {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.listal {
+    list-style-type: none;
 }
