@@ -1,0 +1,211 @@
+/*.Principais{
+    margin: 
+}*/
+
+.containerPai {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.produto {
+    background-color: rgba(219, 154, 143, 0.57);
+    display: flex;
+    width: 550px;
+    height: auto;
+    align-items: flex-start;
+    flex-shrink: 0;
+    margin-right: 30px;
+
+}
+
+.formaPagar {
+    background-color: rgba(219, 154, 143, 0.57);
+    display: flex;
+    width: 550px;
+    height: auto;
+    align-items: flex-start;
+    flex-shrink: 0;
+}
+
+.card-title {
+    padding: 20px;
+    padding-bottom: 0;
+}
+
+.principalTitulo {
+    color: #6E081F;
+    font-family: Lilita One;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.boxLivro {
+    margin: 20px;
+    width: 470px;
+    height: 114px;
+    flex-shrink: 0;
+    text-align: left;
+    font-size: 15px;
+    box-shadow:  3px 4px 7px rgba(0, 0, 0, 0.25);
+}
+
+.livroImg {
+    padding: 15px;
+    padding-left: 30px;
+    width: 100px;
+    height: 114px;
+    flex-shrink: 0;
+}
+
+.numero input{
+    max-width: 40px;
+    margin-left: 17px;
+}
+
+.containerSegundo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+
+.iconeCesta{
+    color: #bbf0cd;
+    font-size: 25px;
+}
+
+.precos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.boxPreco {
+    margin: 0px 20px 20px 20px;
+    width: 400px;
+    height: auto;
+    text-align: center;
+    font-size: 17px;
+    box-shadow:  3px 4px 7px rgba(0, 0, 0, 0.25);
+}
+
+
+.taxas{
+    display: flex;
+    width: 150px;
+    height: auto;
+    align-items: flex-start;
+    flex-shrink: 0;
+    margin-right: 50px;
+    text-align: left;
+    padding-left:0;
+}
+
+.valores{
+    display: flex;
+    width: 70px;
+    height: auto;
+    align-items: flex-start;
+    flex-shrink: 0;
+    text-align: left;
+    padding:0;
+}
+
+.boxPagament {
+    margin: 20px;
+    width: 215px;
+    height: auto;
+    text-align: center;
+    font-size: 17px;
+    box-shadow:  3px 4px 7px rgba(0, 0, 0, 0.25);
+    justify-items: center;
+    
+}
+.pagament{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/*.boxPre {
+    margin: 0 20px 20px 20px;
+    width: 300px;
+    height: auto;
+    text-align: center;
+    font-size: 17px;
+    box-shadow:  3px 4px 7px rgba(0, 0, 0, 0.25);
+    justify-items: center;
+}*/
+
+.fa-credit-card-alt {
+    font-size: 50px;
+}
+
+input[type=checkbox]{
+    border: 0;
+    width: 25px;
+    height: 30px;
+    accent-color: #4B89FF;
+    align-content: center;
+}
+
+
+.cartao{
+    display: flex;
+    width: 150px;
+    height: auto;
+    align-items: flex-start;
+    flex-shrink: 0;
+    margin-right: 50px;
+    text-align: center;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.pix{
+    display: flex;
+    width: 50px;
+    height: auto;
+    align-items: flex-start;
+    flex-shrink: 0;
+    margin-right: 50px;
+    text-align: center;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.pix img{
+    width: 90px;
+    height: 90px;
+}
+
+.pix input[type=checkbox]{
+    border: 0;
+    accent-color: #4B89FF;
+    align-content: center;
+    width: 25px;
+    height: 30px;
+}
+
+.boxInfo {
+    margin: 0 20px 20px 20px;
+    width: auto;
+    height: auto;
+    text-align: center;
+    font-size: 17px;
+    box-shadow:  3px 4px 7px rgba(0, 0, 0, 0.25);
+    justify-items: center;
+}
+
+li{
+    text-align: left;
+}
+
+select{
+    width:350px;
+    border-color: white;
+    accent-color: #4B89FF;
+}
