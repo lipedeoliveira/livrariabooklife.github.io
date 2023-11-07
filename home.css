@@ -158,19 +158,6 @@
     max-width: 120px;
 }
 
-.containerGeral {
-    margin:15px;
-    margin-bottom: 150px;
-    padding: 3px;
-    width: auto;
-    max-width: 100%;
-    height: 450px;
-    max-height: 100%;
-    background-color: #AFF4C6A1;
-    border-radius: 10px;
-    flex-direction: column;
-    box-shadow: 3px 4px 7px 0px rgba(0, 0, 0, 0.25);
-}
 .col {
     margin-top: 40px;
     margin-bottom: 80px;
