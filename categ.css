@@ -1,0 +1,46 @@
+    .generos {
+        color: #4B89FF;
+        font-family: Lilita One;
+        font-size: 50px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    
+    
+    .gen {
+        max-height: 1100px;
+        width: 100%;
+    }
+    
+    
+    .carrossel{
+        list-style-type: none;
+    }
+    .gen .carrossel {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        gap: 16px;
+    }
+    
+    @media screen and (max-width: 768px){
+        .gen .carrossel {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 16px;
+        }
+    }
+
+    @media screen and (max-width: 425px){
+        .gen .carrossel {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 16px;
+        }
+    }
+    
+    .categ .img img {
+        width: 118px;
+        height: 176px;
+        object-fit: cover;
+    }
