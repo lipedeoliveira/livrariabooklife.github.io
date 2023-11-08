@@ -5,6 +5,7 @@
     max-width: 490px;
     height: auto;
     margin-left: 60%;
+    margin-top: -550px;
     background-color: #DB9A8F91;
     border-radius: 5px;
 }
@@ -56,7 +57,7 @@
 }
 
 .procom {
-    margin-left: 106px;
+    margin-left: 90px;
     margin-top: 50px;
     margin-bottom: 40px;
     height: 50px;
@@ -90,7 +91,8 @@
     margin-top: 50px;
 }
 
-.semess h4{color: white;
+.semess h4 {
+    color: white;
     font-size: 27px;
     font-family: Lilita One;
     font-weight: 400;
@@ -98,26 +100,84 @@
     margin-left: 10px;
 }
 
-.conts{
+.conts {
     margin-top: 25px;
     margin-left: 58%;
     max-height: 550px;
     width: auto;
 }
 
-.livs{
+.livs {
     list-style-type: none;
 }
 
-.conts ,.livs{
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 16px;
-    }
+.conts,
+.livs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+}
 
-.seml img{
+.seml img {
     width: auto;
     max-width: 128px;
     height: 176px;
     object-fit: cover;
 }
+
+.lista-com-scroll {
+    width: auto;
+    max-width: 590px;
+    height: 500px;
+    /* Define a altura máxima do contêiner */
+    overflow-y: scroll;
+    /* Adiciona uma barra de rolagem vertical quando necessário */
+    margin-top: 40px;
+    margin-left: -50px;
+}
+
+.lista-com-scroll ul {
+    list-style: none;
+    /* Remove marcadores de lista padrão */
+    padding: 0;
+    /* Remove o preenchimento padrão da lista */
+    margin-left: 40px;
+    margin-right: 40px;
+    width: auto;
+    max-width: 520px;
+    height: auto;
+    margin-top: 30px;
+}
+
+.lista-com-scroll li {
+    padding: 15px;
+    /* Adicione algum preenchimento para melhor legibilidade */
+    border-bottom: 1px solid #ddd;
+    /* Adiciona uma borda inferior para separar os itens da lista */
+    border: 2px #B2ADAD solid;
+    border-radius: 5px;
+    background-color: white;
+    display: flex;
+}
+
+.scroll img {
+    width: auto;
+    max-width: 50px;
+    height: auto;
+    max-width: 70px;
+}
+
+.scroll h4 {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-right: 30px;
+    color: #000;
+    font-family: Montaga;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 27px */
+    letter-spacing: -0.414px;
+}
+
