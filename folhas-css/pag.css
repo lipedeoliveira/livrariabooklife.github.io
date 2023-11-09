@@ -128,23 +128,39 @@
 
 .fa-credit-card-alt {
     font-size: 50px;
-}
-
-.cartao{
-    display: flex;
-    flex-shrink: 0;
-    text-align: left;
-    justify-content: left;
+    margin: 10px 0 0 10px;
 }
 
 .pix {
     display: flex;
     flex-shrink: 0;
+    text-align: center;
+    justify-content: center;
+    padding-left: 20px;
+}
+
+.cart {
+    display: flex;
+    flex-shrink: 0;
+    text-align: center;
+    justify-content: center;
+    padding-left: 20px;
+}
+
+.card-body h5{
     text-align: left;
     justify-content: left;
+    font-size: 20px;
 }
+
 .pix img{
-    width: 90px;
+    width: 70px;
+}
+
+.pix h4 {
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
 }
 
 input[type=checkbox]{
@@ -154,13 +170,12 @@ input[type=checkbox]{
     width: 20px;
     height: 30px;
     margin: auto;
-    margin-left: 50px;
+    margin-left: 30px;
 }
 
-/*.checkChato{
-    text-align: right;
-    
-}*/
+.cart input[type=checkbox] {
+    margin-left: 35px;
+}
 
 .boxInfo {
     margin: 0 20px 20px 20px;
