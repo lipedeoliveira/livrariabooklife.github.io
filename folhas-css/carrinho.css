@@ -90,7 +90,8 @@
     margin-top: 50px;
 }
 
-.semess h4{color: white;
+.semess h4 {
+    color: white;
     font-size: 27px;
     font-family: Lilita One;
     font-weight: 400;
@@ -98,26 +99,33 @@
     margin-left: 10px;
 }
 
-.conts{
+.conts {
     margin-top: 25px;
     margin-left: 58%;
     max-height: 550px;
     width: auto;
 }
 
-.livs{
+.livs {
     list-style-type: none;
 }
 
-.conts ,.livs{
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 16px;
-    }
+.conts,
+.livs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+}
 
-.seml img{
+.seml img {
     width: auto;
     max-width: 128px;
     height: 176px;
     object-fit: cover;
+}
+
+.check {
+    width: 26px;
+    height: 26px;
+    margin-right: 10px;
 }
