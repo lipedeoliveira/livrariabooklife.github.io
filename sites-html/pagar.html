@@ -2,7 +2,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>BOOKSTERS | Página Inicial</title>
+    <title>BOOKSTERS | Realizar pagamento</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Playfair+Display&display=swap"
@@ -35,8 +35,8 @@
         href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.theme.default.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <link rel='stylesheet' href='https://themes.audemedia.com/html/goodgrowth/css/owl.theme.default.min.css'>
-    <link rel="stylesheet" href="../folhas-css/global.css">
-    <link rel="stylesheet" href="../folhas-css/pag.css">
+    <link rel="stylesheet" href="global.css">
+    <link rel="stylesheet" href="pag.css">
 </head>
 
 <body>
@@ -44,7 +44,7 @@
         <!--IMAGEM-->
         <div class="container-fluid" style="background-color: #DB9A8F; border:none; margin-right: 10px;">
             <a class="navbar-brand" href="home.html">
-                <img src="../bookslifeicone.png" height="80px" style="margin-left: 30px;">
+                <img src="bookslifeicone.png" height="80px" style="margin-left: 30px;">
             </a>
 
             <!--LINK DE PÁGINAS-->
@@ -78,7 +78,7 @@
                 <input class="form-control me-2" type="search" placeholder="Buscar por..." aria-label="Search">
                 <button class="btn btn-outline-success" type="submit"
                     style="width: 35px; height: 35px; margin-right: 25px;">
-                    <img src="../lupa.ico" height="20px" class="lupa" style="margin-left: -5px;">
+                    <img src="lupa.ico" height="20px" class="lupa" style="margin-left: -5px;">
                 </button>
             </form>
 
@@ -140,7 +140,7 @@
                         <div class="boxLivro card mb-3"><!--branco-->
                             <div class="row g-0">
                                 <div class="col-md-3">
-                                    <img src="../biblio.png" class="livroimg rounded-start" alt="...">
+                                    <img src="dorian.png" class="livroimg rounded-start" alt="...">
                                 </div>
                                 <div class="containerSengundo col-md-8">
                                     <div class=" card-body"> <!--info livro-->
@@ -157,12 +157,12 @@
                         <div class="boxLivro card mb-3"><!--branco-->
                             <div class="row g-0">
                                 <div class="col-md-3">
-                                    <img src="../biblio.png" class="livroimg rounded-start" alt="...">
+                                    <img src="drácula.png" class="livroimg rounded-start" alt="...">
                                 </div>
                                 <div class="containerSengundo col-md-8">
                                     <div class=" card-body"> <!--info livro-->
-                                        <p class="card-text">O Retrato de Dorian Gray - Oscar Wilde<br>
-                                            R$ 35,99
+                                        <p class="card-text">Drácula - Bram Stoker<br>
+                                            R$ 45,00
                                         </p>
                                     </div>
                                     <div class="numero">
@@ -183,7 +183,7 @@
                                                 <option>Cupom de desconto no frete</option>
                                                 <option>Cupom de desconto no produto</option>
                                                 <option>Nenhum cupom</option>
-                                            </select>                                               
+                                            </select>
                                         </li>
                                         <li class="list-group-item">Subtotal: R$80,99</li>
                                         <li class="list-group-item">Taxa de envio: R$00,00</li>
@@ -202,12 +202,11 @@
                         <h3 class="principalTitulo card-title">Método de Pagamento</h3>
                         <div class="pagament">
                             <div class="boxPagament card mb-3"><!--branco-->
-                                <div class="row g-0">
+                                <div>
                                     <div class="containerSengundo col-md-8">
-                                        <div class=" card-body"> <!--info preço-->
+                                        <div class=" card-body" style="width:215px"> <!--info preço-->
                                             <div class="cartao">
-                                                <i class="fa fa-credit-card-alt" aria-hidden="true" style="margin-right:40px; 
-                                                    padding-bottom: 20px;"></i>
+                                                <i class="fa fa-credit-card-alt" aria-hidden="true"></i>
                                                 <input type="checkbox">
                                             </div>
                                         </div>
@@ -215,12 +214,11 @@
                                 </div>
                             </div>
                             <div class="boxPagament card mb-3"><!--branco-->
-                                <div class="row g-0">
+                                <div>
                                     <div class="containerSengundo col-md-8">
-                                        <div class=" card-body"> <!--info preço-->
+                                        <div class=" card-body" style="width:215px"> <!--info preço-->
                                             <div class="pix">
-                                                <img src="../pix.png" style="margin-right:40px;
-                                                    padding-bottom: 20px;"></img>
+                                                <img src="pix.png" class="imgpix"></img>
                                                 <input type="checkbox">
                                             </div>
                                         </div>
@@ -242,6 +240,11 @@
                                 <li class="list-group-item">Telefone: 11 XXXXX-XXXX</li>
                             </ul>
                         </div>
+                        <br>
+                        <div class="containerBot">
+                            <a class="btn Final" href="..." type="button">
+                                FINALIZAR A COMPRA</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -255,7 +258,7 @@
 
                 <div class="row">
                     <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-                        <img src="../brancobookslifeicone.png" style="width:93px;">
+                        <img src="brancobookslifeicone.png" style="width:93px;">
                         <p class="mt-4">
                             Nós da Book's Life, adoramos servir você da melhor maneira possível.<br>
                             Esperamos que tenha aproveitado nossos serviços e que volte mais vezes.<br>
