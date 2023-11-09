@@ -124,6 +124,19 @@
     margin-left: 30px;
 }
 
+.seml h2{
+    color: black;
+    text-align: left;
+    font-size: 14px;
+    font-family: Montaga;
+    font-weight: 400;
+    line-height: 24px;
+    word-wrap: normal;
+    margin: 10px 0;
+    max-width: 120px;    
+    margin-left: 30px;
+}
+
 .check {
     width: 26px;
     height: 26px;

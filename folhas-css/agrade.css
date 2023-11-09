@@ -1,0 +1,197 @@
+.row
+{
+    display: flex;
+}
+/*MENSAGEM DE AGRADECIMENTO*/
+.containerFilho1
+{
+    margin-top:50px;
+    padding: 20px;
+    width: auto;
+    max-width: 550px;
+    height: 450px;
+    max-height: 100%;
+    background-color: #AFF4C6A1;
+    border-radius: 10px;
+    margin-bottom: 130px;
+    box-shadow: 3px 4px 7px 0px rgba(0, 0, 0, 0.25);
+}
+
+.containerPai2
+{
+    margin-left: 30px;
+    margin-top: 30px;
+    width: 110px;
+    height: 150px;
+    background-color: rgba(70, 70, 70, 0);
+    margin-right: 30px;
+    margin-bottom: 30px;
+    display:flex;
+}
+
+.containerPai2 img
+{
+    margin-left: 45px;
+    width: 130px;
+    height: 200px;
+}
+
+
+.containerPai21
+{
+    margin-left: 90px;
+    margin-top: 30px;
+    width: auto;
+    max-width: 100px;
+    height: 150px;
+    background-color: rgba(63, 55, 55, 0);
+    margin-right: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.containerPai21 h1
+{
+    width: 220px;
+    height: 57px;
+    color: #AC686B;
+    font-family: 'Lilita One';
+    font-size:larger;
+    word-wrap: break-word;
+    margin-top: 7px;
+    text-align: center;
+}
+
+.containerPai21 h2
+{
+    width:220px;
+    height: 57px;
+    color: #000000;
+    font-family: 'Montega';
+    font-size:medium;
+    word-wrap: break-word;
+    margin-top: 7px;
+}
+
+.containerPai21 img
+{
+    width: 80px;
+    height: 50px;
+}
+
+
+
+.containerBotao {
+    margin-left: 100px;
+    width: 300px;
+    max-width: 100%;
+    height: auto;
+    max-height: 40px;
+    margin-top: 70px;
+    border-radius: 10px;
+    background-color: #4B89FF;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-between;
+    box-shadow: 3px 4px 7px 0px rgba(0, 0, 0, 0.25);
+    text-decoration: none;
+}
+
+.containerBotao h1 {
+    width:550px;
+    height: 57px;
+    margin-left: 20px;
+    color: rgb(255, 255, 255);
+    font-family: 'Lilita One';
+    font-size:larger;
+    margin-top: 10px
+}
+
+.containerBotao2 {
+    margin-left: 127px;
+    width: 250px;
+    max-width: 100%;
+    height: auto;
+    max-height: 40px;
+    margin-top: 15px;
+    border-radius: 10px;
+    background-color: #DB9A8F;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-between;
+    box-shadow: 3px 4px 7px 0px rgba(0, 0, 0, 0.25);
+    text-decoration: none;
+}
+
+.containerBotao2 h1 {
+    width:550px;
+    height: 57px;
+    margin-left: 20px;
+    color: rgb(255, 255, 255);
+    font-family: 'Lilita One';
+    font-size:medium;
+
+    margin-top: 10px
+}
+
+/*LIVROS*/
+.containerLivro {
+    width: 500px;
+    max-width: 100%;
+    height: auto;
+    max-height: 40px;
+    margin-top: 50px;
+    border-radius: 10px;
+    background-color: #B37160;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: left;
+}
+
+.containerLivro h1 {
+    width:550px;
+    height: 57px;
+    margin-left:20px;
+    color: rgb(255, 255, 255);
+    font-family: 'Lilita One';
+    font-size: 1.5em;
+    margin-top: 7px
+}
+
+.topContainer
+{
+    margin-left: 50px;
+    height: auto;
+    max-height: 400px;
+    width: auto;
+    max-width: 500px;
+    background-color: rgba(255, 255, 255, 0);
+    margin-top: 20px;
+}
+
+.col2 h2 {
+    color: black;
+    text-align: left;
+    font-size: 14px;
+    font-family: Montaga;
+    font-weight: 400;
+    line-height: 24px;
+    word-wrap: normal;
+    margin: 10px 0;
+    max-width: 120px;
+}
+
+.col2 img {
+    width: 116px;
+    height: 164px;
+    -webkit-filter: grayscale(0) blur(0);
+    filter: grayscale(0) blur(0);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
