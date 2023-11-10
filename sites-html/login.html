@@ -36,8 +36,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <link rel='stylesheet' href='https://themes.audemedia.com/html/goodgrowth/css/owl.theme.default.min.css'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
-    <link rel="stylesheet" href="global.css">
-    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="../folhas-css/global.css">
+    <link rel="stylesheet" href="../folhas-css/login.css">
 </head>
 
 <body>
@@ -46,7 +46,7 @@
         <!--IMAGEM-->
         <div class="container-fluid" style="background-color: #DB9A8F; border:none; margin-right: 10px;">
             <a class="navbar-brand" href="home.html">
-                <img src="bookslifeicone.png" height="80px" style="margin-left: 30px;">
+                <img src="../bookslifeicone.png" height="80px" style="margin-left: 30px;">
             </a>
 
             <!--LINK DE PÁGINAS-->
@@ -56,7 +56,7 @@
                     style="font-family: 'Lilita One', cursive; margin-top: 10px;">
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="home.html" style="border-radius: 10px; 
-                            background-color: #bbf0cd; color: rgb(27, 25, 25); white-space:nowrap;">PÁGINA INICIAL</a>
+                            white-space:nowrap;">PÁGINA INICIAL</a>
                     </li>
 
                     <li class="nav-item">
@@ -100,7 +100,7 @@
                 </li>
                 <li class="nav-link">
                     <a class="nav-link active" aria-current="page" href="perfil.html" style="margin: 10px;">
-                        <i class="fa-regular fa-circle-user icone"></i>
+                        <i class="fa-regular fa-circle-user icone iconePerf"></i>
                     </a>
                 </li>
             </div>
@@ -132,7 +132,7 @@
     <div class="corpo">
         <div class="containerPai">
             <div class="wrapper">
-                <div class="titulo">Login</div>
+                <div class="titulo">LOGIN</div>
                 <form action="#">
                     <div class="row">
                         <i class="fas fa-user"></i>
@@ -142,13 +142,15 @@
                         <i class="fas fa-lock"></i>
                         <input type="password" placeholder="Senha" required>
                     </div>
-                    <div class="pass"><a href="#">Esqueci minha senha</a></div>
-                    <div class="row button Ent">
-                        <input type="submit" value="Entrar">
+                    <div class="pass"><a href="home.html">Esqueci minha senha</a></div>
+                    <div class="A row button">
+                        <a class="btn" href="home.html" type="button">
+                            ENTRAR</a>
                     </div>
                     <div class="signup-link">Não tem uma conta?</div>
-                    <div class="row button Cad">
-                        <input type="submit" value="Cadastre-se">
+                    <div class="B row button">
+                        <a class="btn" href="#" type="button">
+                            CADASTRE-SE</a>
                     </div>
                 </form>
             </div>
@@ -161,7 +163,7 @@
 
                 <div class="row">
                     <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-                        <img src="brancobookslifeicone.png" style="width:93px;">
+                        <img src="../brancobookslifeicone.png" style="width:93px;">
                         <p class="mt-4">
                             Nós da Book's Life, adoramos servir você da melhor maneira possível.<br>
                             Esperamos que tenha aproveitado nossos serviços e que volte mais vezes.<br>
